@@ -3,6 +3,8 @@ A Secure, Decentralized, and Biometric-Based Access Control System
 
 This project integrates biometric authentication (fingerprint recognition) with blockchain technology to create a tamper-proof, secure, and decentralized door lock system. Utilising Ethereum smart contracts, all access attempts are recorded transparently, eliminating security risks associated with traditional centralized databases.
 
+Video demo link: https://drive.google.com/file/d/147HnpRNge7AVKz-W2D68FLpSRysKWj2X/view?usp=drive_link
+
 Features
 1. Fingerprint Authentication – Ensures only authorized users can unlock the door.
 2. Blockchain Security – Stores access logs on Ethereum for transparency and immutability.
