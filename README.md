@@ -1,0 +1,33 @@
+🔐 Smart Blockchain-Based Door Lock System
+A Secure, Decentralized, and Biometric-Based Access Control System
+
+This project integrates biometric authentication (fingerprint recognition) with blockchain technology to create a tamper-proof, secure, and decentralized door lock system. Utilising Ethereum smart contracts, all access attempts are recorded transparently, eliminating security risks associated with traditional centralized databases.
+
+Features
+1. Fingerprint Authentication – Ensures only authorized users can unlock the door.
+2. Blockchain Security – Stores access logs on Ethereum for transparency and immutability.
+3. Admin Approval via MetaMask – Unauthorized access attempts trigger an admin request.
+4. Web Dashboard (React.js) – Real-time monitoring and management of access logs.
+5. IoT Integration (Arduino Uno + Servo Motor) – Physically unlocks/locks the door upon successful authentication.
+
+🛠️ Tech Stack
+
+Hardware:
+Arduino Uno – Controls fingerprint sensor and lock mechanism.
+Fingerprint Sensor – Captures user authentication data.
+Servo Motor – Acts as the physical lock/unlock mechanism.
+12V Relay – Controls door locking via Arduino.
+
+Software:
+Frontend: React.js (User Interface & Access Logs Monitoring)
+Backend: Node.js + Express.js (Handles authentication & blockchain interaction)
+Blockchain: Ethereum (Solidity Smart Contracts, Hardhat for testing)
+Web3.js: Facilitates Ethereum interactions with MetaMask
+
+🔄 Working Mechanism
+
+1. User places their finger on the fingerprint sensor → Data is sent to the backend.
+2. System checks if the fingerprint is authorized → If not, an admin confirmation request is sent.
+3. Admin approves via MetaMask → A blockchain transaction logs the access attempt.
+4. Smart Contract verifies the request → If valid, the backend signals the servo motor to unlock the door.
+5. Real-time web dashboard updates logs → Unauthorized attempts are logged for security.
