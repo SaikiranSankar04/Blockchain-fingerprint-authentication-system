@@ -13,7 +13,8 @@ Features
 5. IoT Integration (Arduino Uno + Servo Motor) – Physically unlocks/locks the door upon successful authentication.
 
 4-Layer Architecture of the system
-![image](https://github.com/user-attachments/assets/9ff7a84d-09eb-448c-8042-ddde4f12e360)
+![image](https://github.com/user-attachments/assets/91f10191-e4f1-4c1d-b1f7-5645e194bf0b)
+
 
 🛠️ Tech Stack
 
