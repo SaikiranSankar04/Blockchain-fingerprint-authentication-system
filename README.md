@@ -12,6 +12,9 @@ Features
 4. Web Dashboard (React.js) – Real-time monitoring and management of access logs.
 5. IoT Integration (Arduino Uno + Servo Motor) – Physically unlocks/locks the door upon successful authentication.
 
+4-Layer Architecture of the system
+![image](https://github.com/user-attachments/assets/9ff7a84d-09eb-448c-8042-ddde4f12e360)
+
 🛠️ Tech Stack
 
 Hardware:
