@@ -28,6 +28,9 @@ Web3.js: Facilitates Ethereum interactions with MetaMask
 
 🔄 Working Mechanism
 
+![image](https://github.com/user-attachments/assets/9e8ab4f2-a46e-493d-b8a6-7397f2d08310)
+
+
 1. User places their finger on the fingerprint sensor → Data is sent to the backend.
 2. System checks if the fingerprint is authorized → If not, an admin confirmation request is sent.
 3. Admin approves via MetaMask → A blockchain transaction logs the access attempt.
