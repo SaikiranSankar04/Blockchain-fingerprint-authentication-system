@@ -19,16 +19,26 @@ Features
 
 🛠️ Tech Stack
 
+![image](https://github.com/user-attachments/assets/c6dbab52-8bb2-49de-83ea-57da9414d5e1)
+
 Hardware:
+
 Arduino Uno – Controls fingerprint sensor and lock mechanism.
+
 Fingerprint Sensor – Captures user authentication data.
+
 Servo Motor – Acts as the physical lock/unlock mechanism.
+
 12V Relay – Controls door locking via Arduino.
 
 Software:
+
 Frontend: React.js (User Interface & Access Logs Monitoring)
+
 Backend: Node.js + Express.js (Handles authentication & blockchain interaction)
+
 Blockchain: Ethereum (Solidity Smart Contracts, Hardhat for testing)
+
 Web3.js: Facilitates Ethereum interactions with MetaMask
 
 🔄 Working Mechanism
